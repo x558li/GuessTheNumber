@@ -1,0 +1,111 @@
+body {
+	background-color: #DDA0DD;
+	margin: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+#inputContainer {
+	color: white;
+	text-align: center;
+	margin: 30px auto;
+}
+
+#stripe {
+	text-align: center;
+	background-color: white;
+	height: 50px;
+}
+
+#hintMessage {
+	color: black;
+	font-size: 100%;
+	letter-spacing: 1px;
+	text-align: center;
+	display: inline-block;
+	width: 18%;
+}
+
+.blinkText {
+	animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+	from { color: yellow; }
+    to { color: red; }
+}
+
+.selected {
+	background-color: #E0FFFF;
+	color: #800080;
+}
+
+
+#chanceMessage {
+	color: #800080;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+h1 {
+	color: #800080;
+	letter-spacing: 1.5px;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 2;
+	margin-top: 2cm;
+	background-color: #E0FFFF;
+	margin: 0;
+	padding: 20px 0;
+
+}
+
+button {
+	border: none;
+	text-transform: uppercase;
+	background: none;
+	height: 100%;
+	font-weight: 700;
+	font-size: 100%;
+	letter-spacing: 1px;
+	color: #191970;
+	transition: all 0.2s;
+	-webkit-transation: all 0.2s;
+	-moz-transation: all 0.2s;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button:hover {
+	background-color: #E0FFFF;
+	color: #800080;
+}
+
+input {
+	height:80px;
+    width:230px;
+    font-size:18pt;
+    padding: 40px 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+	text-align: center;
+}
+
+#answerContainer {
+	text-align: center;
+}
+
+
+
+
